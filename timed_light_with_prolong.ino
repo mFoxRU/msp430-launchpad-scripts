@@ -6,7 +6,7 @@
 
 //       CONFIG
 // Timeout 
-const int timeout = 2000;
+const unsigned long timeout = 2000;
 //    END OF CONFIG
 
 
@@ -14,7 +14,7 @@ const int button = PUSH2;
 const int light = GREEN_LED;
 const int time_step = 100;
 
-int remaining = 0;
+unsigned long remaining = 0;
 
 void setup()
 {
